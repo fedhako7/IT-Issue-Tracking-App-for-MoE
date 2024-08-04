@@ -1,0 +1,223 @@
+
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .sidebar {
+    background-color: #111827;
+    color: #9ca3af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: width 0.3s;
+   
+  }
+  
+  .sidebar-top {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-bottom: 1px solid #4b4b4b;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    width: 20%;
+  }
+  
+  .sidebar-center {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .list-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+  }
+  
+  .list-item-icon {
+    width: 30px;
+    font-size: 20px;
+    transition: opacity 0.3s;
+  }
+  
+  .list-item.active,
+  .list-item:hover {
+    background-color: #374151;
+    color: white;
+  }
+  
+  .list-item-text {
+    margin-left: 10px;
+    transition: opacity 0.3s;
+  }
+  
+  /* Additional breakpoints for more granularity */
+  @media only screen and (max-width: 1200px) {
+    .sidebar {
+      width: 12%;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .sidebar {
+      width: 10%;
+    }
+    .list-item-text {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .sidebar {
+      width: 8%;
+    }
+    .list-item-text {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .sidebar {
+      width: 7.5%;
+    }
+    .list-item-text {
+      font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .sidebar {
+      width: 7%;
+    }
+    .list-item-text {
+      font-size: 9px;
+    }
+    .list-item-icon {
+      width: 25px;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .sidebar {
+      width: 7%;
+    }
+    .list-item-text {
+      font-size: 8px;
+    }
+    .list-item-icon {
+      width: 23px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .sidebar {
+      width: 6.5%;
+    }
+    
+      .list-item-text {
+        display: none;
+    }
+    .list-item-icon {
+      width: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 568px) {
+    .sidebar {
+      width: 50px;
+    }
+    .list-item-text {
+      display: none;
+    }
+    .list-item-icon {
+      width: 30px;
+    }
+    .list-item:hover .list-item-text {
+      display: block;
+      position: absolute;
+      background-color: #111827;
+      padding: 5px;
+      border-radius: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      color: white;
+    }
+    .list-item:hover .list-item-icon {
+      opacity: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .sidebar {
+      width: 40px;
+    }
+    .list-item-text {
+      display: none;
+    }
+    .list-item-icon {
+      width: 25px;
+    }
+    .list-item:hover .list-item-text {
+      display: block;
+      position: absolute;
+      background-color: #111827;
+      padding: 5px;
+      border-radius: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      color: white;
+    }
+    .list-item:hover .list-item-icon {
+      opacity: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .sidebar {
+      width: 35px;
+    }
+    .list-item-text {
+      display: none;
+    }
+    .list-item-icon {
+      width: 20px;
+    }
+    .list-item:hover .list-item-text {
+      display: block;
+      position: absolute;
+      background-color: #111827;
+      padding: 5px;
+      border-radius: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      color: white;
+    }
+    .list-item:hover .list-item-icon {
+      opacity: 0;
+    }
+  }
+
+.sidebar{
+    box-shadow: 5px 0 15px -5px rgba(255, 255, 255, 0.1 );
+}
+
+
+
+
+

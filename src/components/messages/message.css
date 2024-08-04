@@ -1,0 +1,12 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+.message.own{
+  align-items: flex-end;
+}
+.message.own .message-txt{
+  background-color: lightgray;
+  color: black;
+}

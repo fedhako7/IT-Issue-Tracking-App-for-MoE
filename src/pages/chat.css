@@ -1,0 +1,61 @@
+.full_container{
+    display: flex;
+     padding: 2rem;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+   
+}
+.UserList{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    color: #000;
+    height: 100%;
+    width: 27%;
+    margin: 0 1rem;
+   
+}
+.singleUser{
+display: flex;
+gap: 10px;
+align-items: center;
+margin-top: .8rem;
+width: 100%;
+padding: 1rem;
+cursor: pointer;
+justify-content: center;
+}
+.singleUser:hover{
+    background: rgb(214, 218, 214);
+    color: #000;
+    border-radius: 5%;
+}
+.userImg{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.chatBox{
+box-shadow: 0 0 4px;
+}
+.empty-chat{
+ text-align: center;
+ margin: 2rem 1rem;
+ font-size: 1.5rem;
+ font-weight: 700;
+ background: rgb(235, 226, 226);
+ padding: .5rem 1rem;
+  
+}
+.chatBox-wrapper{
+padding: 2rem;
+position: relative;
+}
+
+.conversation.active {
+    background-color: #8e8585; /* Example background color for active conversation */
+    font-weight: bold;
+     /* Example styling for active conversation */
+  }
