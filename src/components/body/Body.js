@@ -37,12 +37,6 @@ const Body = () => {
         <Route path="/history" element={<History />} />
       </Routes>
 
-      {/* <SubmitIssue />
-        <CheckIssueStatus />
-        <Profile />
-        <SendFeedback />
-        <Notification />
-        <Chat /> */}
     </div>
   );
 };

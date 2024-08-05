@@ -1,29 +1,8 @@
 import React, { useState } from "react";
-import axios from "axios";
 
 const ForgotPassword = () => {
-  const baseUrl = "http://localhost:5600/api";
   const [email, setEmail] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
-
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     const res = await axios.post(`${baseUrl}/auth/forgot-password`, { email });
-  //     console.log("Response from server:", res.data);
-  //     alert("Password reset link sent successfully. Check your email.");
-  //     // Redirect to login page or display a message to check email
-  //     // Example redirect:
-  //     // window.location.href = "/login";
-  //   } catch (error) {
-  //     console.error('Error sending reset link:', error);
-  //     if (error.response) {
-  //       setErrorMessage(error.response.data.message); // Set error message from backend response
-  //     } else {
-  //       setErrorMessage("Failed to send reset link. Please try again later.");
-  //     }
-  //   }
-  // };
+  const [errorMessage] = useState('');
 
   return (
     <div className="flex justify-center shadow-lg h-screen items-center bg-gray-100">

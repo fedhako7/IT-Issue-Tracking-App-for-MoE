@@ -1,7 +1,6 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Staff from "./components/staffSidebar/Staff";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import ITStaff from "./components/ITStaff/ITStaff";
 
 const StaffDashboard = () => {

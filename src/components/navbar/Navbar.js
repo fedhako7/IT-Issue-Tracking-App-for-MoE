@@ -1,8 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { IoMdNotifications } from "react-icons/io";
-import { CiLight } from "react-icons/ci";
 import { Link, useLocation } from "react-router-dom";
-import { CiDark } from "react-icons/ci";
 import { CiChat1 } from "react-icons/ci";
 import {logout} from '../../redux/userSlice'
 import { io } from "socket.io-client";

@@ -1,11 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { useSelector } from "react-redux";
-
-import Navbar from "./components/navbar/Navbar";
-import Sidebar from "./components/sidebar/Sidebar";
-import Home from "./pages/Home";
-import Body from "./components/body/Body";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./landing/Main";
 import Dashboard from "./Dashboard";
 import StaffDashboard from "./StaffDashboard";

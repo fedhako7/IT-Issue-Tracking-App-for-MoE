@@ -57,5 +57,4 @@ position: relative;
 .conversation.active {
     background-color: #8e8585; /* Example background color for active conversation */
     font-weight: bold;
-     /* Example styling for active conversation */
   }

@@ -1,7 +1,6 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Body from "./components/body/Body";
 
 const Dashboard = () => {
